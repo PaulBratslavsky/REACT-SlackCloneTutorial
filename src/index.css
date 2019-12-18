@@ -7,3 +7,12 @@ body {
   padding: 1rem;
 }
 
+/* Message */
+.messages {
+  height: 540px;
+  overflow-y: scroll;
+}
+
+.messge__form {
+  position: fixed !important; 
+}
