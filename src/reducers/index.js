@@ -35,7 +35,7 @@ const channel_reducer = ( state = initialChannelState, action ) => {
 
             return {
                 ...state,
-                currentChannel: action.payload
+                currentChannel: action.payload.currentChannel
             }
         
         default: 

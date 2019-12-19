@@ -16,3 +16,12 @@ body {
 .messge__form {
   position: fixed !important; 
 }
+
+.message__self {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.message__image {
+  padding: 1em;
+}

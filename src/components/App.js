@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
 
 const App = ({ currentUser, currentChannel }) => {
 
-  console.log(currentUser, currentChannel, "Need to pass this");
+  console.log(currentChannel, "SELECTED CHANNEL");
 
   return (
     <Grid columns="equal" className="app" style={{ background: '#eee' }}>
